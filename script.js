@@ -22,7 +22,7 @@ function addNewTask() {
     })
     inputTask
     inputTask.type = 'text'
-    inputTask.placeholder = 'Descrição'
+    inputTask.placeholder = 'Descricao'
     inputTask.classList.add('layoutDescription')
     
     taskLi.appendChild(inputTask)
